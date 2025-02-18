@@ -1,0 +1,21 @@
+#navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 20px;
+  font-weight: bold;
+}
+
+#navList {
+  display: flex;
+  gap: 20px;
+}
+
+#navItem {
+  list-style: none;
+}
+
+#navItem a {
+  color: var(--fonte-clara);
+  text-decoration: none;
+}

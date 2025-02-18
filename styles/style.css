@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url(/styles/header.css);
+@import url(/styles/sobreMim.css);
+@import url(/styles/projetos.css);
+
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --fundo: #cae0eb;
+  --azul-escuro: #1b263b;
+  --fonte-clara: #e0e1dd;
+}
+
+body {
+  background-color: var(--fundo);
+}
+
+header {
+  background-color: var(--azul-escuro);
+  color: var(--fonte-clara);
+  padding: 25px;
+}
+
+main {
+  color: var(--azul-escuro);
+}
+
+hr {
+  border: none;
+  background-color: var(--azul-escuro);
+  height: 1px;
+}
