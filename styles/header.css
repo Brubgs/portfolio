@@ -18,6 +18,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   margin: 0px 20px;
+  padding: 0px 10px;
   font-weight: bold;
 }
 
@@ -33,4 +34,47 @@ footer {
 #navItem a {
   color: var(--fonte-clara);
   text-decoration: none;
+}
+
+#botaoMenuMobile {
+  display: none;
+}
+
+#menuMobile {
+  display: none;
+}
+
+@media screen and (max-width: 1170px) {
+  #navBar {
+    margin: 0px 5px;
+    padding: 0px 5px;
+  }
+  #botaoMenuMobile {
+    display: block;
+    border: none;
+    background-color: transparent;
+    color: var(--fonte-clara);
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #navList {
+    display: none;
+  }
+
+  #menuMobile.active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #mobileNavList {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+  }
 }

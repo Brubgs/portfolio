@@ -25,3 +25,14 @@
   max-width: 7%;
   max-height: 7%;
 }
+
+@media screen and (max-width: 600px) {
+  #tecnologiasLogos {
+    margin: 30px 15px;
+  }
+
+  #tecnologiasLogos img {
+    max-width: 10%;
+    max-height: 10%;
+  }
+}

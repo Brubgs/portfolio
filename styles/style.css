@@ -26,6 +26,6 @@ main {
 
 hr {
   border: none;
-  background-color: var(--azul-escuro);
+  background-color: #1b263b32;
   height: 1px;
 }

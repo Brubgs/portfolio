@@ -12,6 +12,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </head>
   <body>
     <header>
@@ -19,11 +25,24 @@
         <p>Bruna Borges</p>
         <ul id="navList">
           <li id="navItem"><a href="#sobreMim">Sobre mim</a></li>
-          <li id="navItem"><a href="">Projetos</a></li>
-          <li id="navItem"><a href="">Tecnologias</a></li>
-          <li id="navItem"><a href="">Contato</a></li>
+          <li id="navItem"><a href="#projetos">Projetos</a></li>
+          <li id="navItem"><a href="#tecnologias">Tecnologias</a></li>
+          <li id="navItem"><a href="#contatos">Contato</a></li>
         </ul>
+
+        <button id="botaoMenuMobile">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </nav>
+
+      <div id="menuMobile">
+        <ul id="mobileNavList">
+          <li id="navItem"><a href="#sobreMim">Sobre mim</a></li>
+          <li id="navItem"><a href="#projetos">Projetos</a></li>
+          <li id="navItem"><a href="#tecnologias">Tecnologias</a></li>
+          <li id="navItem"><a href="#contatos">Contatos</a></li>
+        </ul>
+      </div>
     </header>
 
     <main>
@@ -172,5 +191,6 @@
     <footer>
       <p>Bruna Borges</p>
     </footer>
+    <script src="/script.js"></script>
   </body>
 </html>

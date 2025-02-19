@@ -24,9 +24,10 @@
   border-radius: 10px;
   margin: 10px;
   gap: 10px;
-  padding: 10px;
+  padding: 15px;
   box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.2);
-  max-width: 20%;
+  max-width: 15%;
+  text-align: center;
 }
 
 .card:hover {
@@ -52,4 +53,23 @@
 .botaoProjeto a {
   text-decoration: none;
   color: var(--fonte-clara);
+}
+
+@media screen and (max-width: 1177px) {
+  .card {
+    max-width: 30%;
+  }
+  .card img {
+    width: 60%;
+  }
+
+  .card:hover {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .card {
+    max-width: 100%;
+  }
 }
