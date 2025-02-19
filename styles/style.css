@@ -5,6 +5,9 @@
 @import url(/styles/tecnologias.css);
 @import url(/styles/contato.css);
 
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   font-family: "Inter", sans-serif;
