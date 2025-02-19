@@ -1,0 +1,27 @@
+#tecnologias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+#tecnologiasLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+#tecnologiasLogos img {
+  max-width: 6%;
+  max-height: 6%;
+  transition: max-width 0.5s ease;
+}
+
+#tecnologiasLogos img:hover {
+  max-width: 7%;
+  max-height: 7%;
+}

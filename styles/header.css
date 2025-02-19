@@ -1,3 +1,18 @@
+header {
+  background-color: var(--azul-escuro);
+  color: var(--fonte-clara);
+  padding: 25px;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: var(--azul-escuro);
+  color: var(--fonte-clara);
+  padding: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
 #navBar {
   display: flex;
   align-items: center;
