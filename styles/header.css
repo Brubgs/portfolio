@@ -25,6 +25,10 @@ footer {
   font-weight: bold;
 }
 
+#navBar p {
+  font-size: 20px;
+}
+
 #navList {
   display: flex;
   gap: 20px;
@@ -37,6 +41,14 @@ footer {
 #navItem a {
   color: var(--fonte-clara);
   text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.162);
+  padding: 5px 15px;
+  border-radius: 15px;
+  transition: ease 0.5s;
+}
+
+#navItem a:hover {
+  background-color: #17356c;
 }
 
 #botaoMenuMobile {
@@ -52,10 +64,7 @@ footer {
     margin: 0px 30px 0px 0px;
   }
 
-  #navBar p {
-    margin: 0px;
-    padding: 0px;
-  }
+  
   #botaoMenuMobile {
     display: block;
     border: none;
@@ -74,6 +83,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin-right: 50px;
+    gap: 100px;
   }
 
   #mobileNavList {
@@ -84,5 +94,9 @@ footer {
     justify-content: center;
     gap: 10px;
     padding: 0px;
+  }
+
+  #mobileNavList #navItem {
+    margin-top: 10px;
   }
 }

@@ -10,6 +10,7 @@
 #sobreMimTexto {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
-  max-width: 80%;
+  max-width: 75%;
 }
